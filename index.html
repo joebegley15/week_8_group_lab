@@ -7,7 +7,45 @@
   <link rel="stylesheet" href="">
 </head>
 <body>
-  <script src="main.js" type="text/javascript" charset="utf-8"></script>
+
+  <div id="users-box">
+    <h1>Users</h1>
+    <button id="get-users">Get Users</button>
+  </div>
+
+  <!-- handlebars template -->
+  <script id="users-template" type="text/x-handlbars-template">
+    {{#each users}}
+      <h4>ID: {{id}} {{name}}</h4>
+      <p>{{username}}</p>
+      <p>{{email}}</p>
+      <p>Address</p>
+      <ul>
+        <li>{{address.street}}</li>
+        <li>{{address.suite}}</li>
+        <li>{{address.city}}</li>
+        <li>{{address.zipcode}}</li>
+        <li>{{address.street}}</li>
+        <li>{{address.zipcode}}</li>
+        <li>GEO: latitude: {{geo.lat}} longitude: {{geo.lng}}</li>
+      </ul>
+      <p>Phone: {{phone}}</p>
+      <p>Website: {{website}}</p>
+      <p>Company: {{company.name}}</p>
+      <ul>
+        <li>{{company.catchPhrase}}</li>
+        <li>{{company.bs}}</li>
+      </ul>
+    {{/each}}
+  </script>
+
+
+
+
   <script src="node_modules/jquery/dist/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="handlebars-v3.0.3.js"></script>
+  <script src="main.js" type="text/javascript" charset="utf-8"></script>
+    }
+
 </body>
 </html>

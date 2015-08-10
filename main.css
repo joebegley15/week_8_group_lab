@@ -1,0 +1,16 @@
+h2 {
+  font-size: 24px;
+  text-align: center;
+  color: #1C252E;
+}
+
+body {
+  background-color: #99CCFF;
+}
+
+#users-box {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #5C7A99;
+  color: #1C252E
+}
