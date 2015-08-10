@@ -2,16 +2,18 @@ h2 {
   font-size: 24px;
   text-align: center;
   color: #1C252E;
+  font-family: 'Oswald', sans-serif;
 }
 
 body {
   background-color: #99CCFF;
+  font-family: 'Oswald', sans-serif;
 }
 
 #users-box {
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
-  background-color: #5C7A99;
   color: #1C252E
 }
 
