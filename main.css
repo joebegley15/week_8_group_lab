@@ -2,15 +2,51 @@ h2 {
   font-size: 24px;
   text-align: center;
   color: #1C252E;
+  font-family: 'Oswald', sans-serif;
 }
 
 body {
   background-color: #99CCFF;
+  font-family: 'Oswald', sans-serif;
 }
 
 #users-box {
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
-  background-color: #5C7A99;
   color: #1C252E
+}
+
+#users-api-data p {
+  color: #1C252E;
+}
+
+#users-api-data ul {
+  list-style-type: none;
+}
+
+#users-api-data {
+  padding: 2%;
+  border: 2px dashed #1C252E;
+  border-radius: 10px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
+
+.btn {
+  background: #0F1E4A;
+  border-radius: 15px;
+  border: 2px dashed #ffffff;
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0052CC;
+  text-decoration: none;
 }
