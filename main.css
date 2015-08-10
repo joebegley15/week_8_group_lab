@@ -14,3 +14,11 @@ body {
   background-color: #5C7A99;
   color: #1C252E
 }
+
+#users-api-data p {
+  color: #1C252E;
+}
+
+#users-api-data ul {
+  list-style-type: none;
+}
